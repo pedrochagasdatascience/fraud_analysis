@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fraud_analysis/static/css/main.5a9974b0.css",
-    "main.js": "/fraud_analysis/static/js/main.9bd3da0f.js",
+    "main.css": "/fraud_analysis/static/css/main.8e662a32.css",
+    "main.js": "/fraud_analysis/static/js/main.d448c6e0.js",
     "index.html": "/fraud_analysis/index.html",
-    "main.5a9974b0.css.map": "/fraud_analysis/static/css/main.5a9974b0.css.map",
-    "main.9bd3da0f.js.map": "/fraud_analysis/static/js/main.9bd3da0f.js.map"
+    "main.8e662a32.css.map": "/fraud_analysis/static/css/main.8e662a32.css.map",
+    "main.d448c6e0.js.map": "/fraud_analysis/static/js/main.d448c6e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a9974b0.css",
-    "static/js/main.9bd3da0f.js"
+    "static/css/main.8e662a32.css",
+    "static/js/main.d448c6e0.js"
   ]
 }
