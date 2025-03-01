@@ -33,7 +33,11 @@ const FraudRiskDashboard = () => {
         
         // Try direct fetch first (more reliable)
         try {
-          const response = await fetch('/202502281839.csv');
+          // Use process.env.PUBLIC_URL to get the correct base path for GitHub Pages
+          const csvUrl = `${process.env.PUBLIC_URL}/202502281839.csv`;
+          console.log('Fetching CSV from:', csvUrl);
+          
+          const response = await fetch(csvUrl);
           if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
           }
